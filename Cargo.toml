@@ -1,0 +1,12 @@
+[package]
+name = "adw-askpass"
+version = "0.0.1"
+edition = "2024"
+
+[[bin]]
+name = "adw-askpass"
+path = "src/main.rs"
+
+[dependencies]
+gtk4 = "0.11"
+libadwaita = { version = "0.9", features = ["v1_2"] }
